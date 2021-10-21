@@ -1,4 +1,4 @@
-require 'bikes.rb'
+require_relative 'bikes.rb'
 class DockingStation
     def release_bike
         Bikes.new
